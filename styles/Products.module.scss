@@ -1,0 +1,24 @@
+.container {
+  height: 500px;
+  width: 1300px;
+  margin: 88px auto 50px auto;
+  .title {
+    margin-bottom: 40px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 285px;
+    height: 446px;
+    margin: 16px;
+  }
+  .active {
+    background-color: black;
+  }
+
+  .title {
+    text-align: center;
+  }
+}

@@ -1,0 +1,106 @@
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__image {
+    width: 100vw;
+    height: 100vh;
+    background: url('../public/images/main.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.2;
+  }
+
+  &__body {
+    position: absolute;
+
+    width: 350px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #b5b3b0;
+    border-radius: 10px;
+  }
+  &__title {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: #3a3a3a;
+  }
+  &__buttons {
+    display: flex;
+  }
+  &__button {
+    cursor: pointer;
+    margin: 15px 25px;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, #dad9d7, #fff6f3);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+      0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    &:hover {
+      box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+        0px 8px 10px 1px rgba(0, 0, 0, 0.14);
+    }
+  }
+  &__button_active {
+    box-shadow: none;
+    background: linear-gradient(to right, #c4c3c2, #dfd9d8);
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  &__form {
+    padding-top: 10px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    margin: 20px 0;
+  }
+  &__label {
+    padding: 0 0 10px 0;
+    font-size: 20px;
+  }
+  &__input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+      0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    &:hover {
+      box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+        0px 8px 10px 1px rgba(0, 0, 0, 0.14);
+    }
+  }
+  &__error {
+    color: rgb(255, 75, 75);
+    font-size: 15px;
+  }
+
+  &__submit {
+    cursor: pointer;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #dad9d7, #fff6f3);
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+      0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+    &:hover {
+      box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+        0px 8px 10px 1px rgba(0, 0, 0, 0.14);
+    }
+  }
+}

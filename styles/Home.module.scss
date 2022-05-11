@@ -1,0 +1,88 @@
+.container {
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+
+  width: 100%;
+  top: 180px;
+}
+
+.infoblock {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 494px;
+  height: 553px;
+  background-color: #fff;
+  opacity: 0.98;
+  padding: 60px;
+
+  .title {
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 120%;
+    color: #3a3a3a;
+  }
+
+  .text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 1.5px;
+    color: #898989;
+    margin-top: 16px;
+  }
+
+  .button {
+    width: 374px;
+    height: 78px;
+    margin-top: 48px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #e89f71;
+    border: none;
+  }
+}
+
+.priceblock {
+  position: absolute;
+  top: 600px;
+  right: 160px;
+  width: 294px;
+  height: 148px;
+  background-color: #fff;
+  opacity: 0.8;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    color: #3a3a3a;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #616161;
+  }
+
+  &__item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.products {
+  position: relative;
+  top: 0;
+}

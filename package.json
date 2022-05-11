@@ -1,0 +1,35 @@
+{
+  "name": "rental-housing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/lab": "^5.0.0-alpha.80",
+    "@mui/material": "^5.6.4",
+    "firebase": "^9.7.0",
+    "formik": "^2.2.9",
+    "next": "^12.1.7-canary.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.1",
+    "react-slick": "^0.29.0",
+    "redux": "^4.2.0",
+    "sass": "^1.51.0",
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6",
+    "file-loader": "^6.2.0"
+  }
+}
